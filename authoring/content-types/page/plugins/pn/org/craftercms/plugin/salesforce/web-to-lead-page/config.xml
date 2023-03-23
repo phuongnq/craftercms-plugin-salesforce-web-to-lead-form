@@ -1,0 +1,13 @@
+<content-type name="/page/plugins/pn/org/craftercms/plugin/salesforce/web-to-lead-page" is-wcm-type="true">
+	<label>Salesforce Web to Lead Page</label>
+	<form>/page/plugins/pn/org/craftercms/plugin/salesforce/web-to-lead-page</form>
+	<form-path>simple</form-path>
+	<model-instance-path>NOT-USED-BY-SIMPLE-FORM-ENGINE</model-instance-path>
+	<file-extension>xml</file-extension>
+	<content-as-folder>true</content-as-folder>
+	<previewable>true</previewable>
+	<quickCreate>false</quickCreate>
+	<quickCreatePath></quickCreatePath>
+	<noThumbnail>true</noThumbnail>
+	<image-thumbnail></image-thumbnail>
+</content-type>

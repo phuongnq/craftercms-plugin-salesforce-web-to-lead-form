@@ -1,0 +1,57 @@
+# This file describes a plugin for use in CrafterCMS
+
+# The version of the format for this file
+descriptorVersion: 2
+
+# Describe the plugin
+plugin:
+  type: site
+  id: pn.org.craftercms.plugin.salesforce
+  name: salesforce
+  tags:
+    - salesforce
+  version:
+    major: 1
+    minor: 0
+    patch: 0
+  description: A plugin that allows you use submit a form to salesforce
+  documentation: "https://raw.githubusercontent.com/phuongnq/craftercms-plugin-salesforce-web-to-lead-form/main/README.md"
+  website:
+    name: stripe
+    url: https://github.com/phuongnq/craftercms-plugin-salesforce-web-to-lead-form
+  media:
+    screenshots:
+      - title: CrafterCMS
+        description: CrafterCMS Plugin for Salesforce
+        url: "https://raw.githubusercontent.com/phuongnq/craftercms-plugin-salesforce-web-to-lead-form/main/.crafter/logo.webp"
+  developer:
+    company:
+      name: Phil Nguyen
+      email: phil.nguyen@craftercms.com
+      url: https://github.com/phuongnq
+  build:
+    id: 8470f83e-d571-4c98-840b-ab8248f85af1
+    date: 2023-03-22T00:00:00Z
+  license:
+    name: MIT
+    url: https://opensource.org/licenses/MIT
+  crafterCmsVersions:
+    - major: 4
+      minor: 0
+      patch: 0
+    - major: 4
+      minor: 0
+      patch: 1
+    - major: 4
+      minor: 0
+      patch: 2
+    - major: 4
+      minor: 0
+      patch: 3
+  crafterCmsEditions:
+    - community
+    - enterprise
+  parameters:
+    - label: Salesforce Organization ID
+      name: oid
+      description: The Salesforce Organization ID
