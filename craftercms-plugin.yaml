@@ -17,7 +17,7 @@ plugin:
   description: A plugin that allows you use submit a form to salesforce
   documentation: "https://raw.githubusercontent.com/phuongnq/craftercms-plugin-salesforce-web-to-lead-form/main/README.md"
   website:
-    name: stripe
+    name: salesforcewebtoleadform
     url: https://github.com/phuongnq/craftercms-plugin-salesforce-web-to-lead-form
   media:
     screenshots:
